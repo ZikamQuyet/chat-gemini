@@ -75,7 +75,7 @@ const ChatDetail = () => {
       )}
       <div className="max-w-[70%] w-full mx-auto mt-10">
         {id ? (
-          <div className="flex flex-col gap-7 h-[650px] border overflow-x-hidden overflow-y-auto">
+          <div className="flex flex-col gap-7 h-[650px] overflow-x-hidden overflow-y-auto">
             {Array.isArray(msgDetail) &&
               msgDetail.map((item) => (
                 <div className="flex gap-9" key={item.id}>
